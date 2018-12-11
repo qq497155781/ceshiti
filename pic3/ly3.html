@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ly</title>
+<link href="pic3.css" rel="stylesheet" type="text/css">
+<script>
+var percent=0;
+	var loading=setInterval(function(){
+		if(percent>100){
+			percent=0;
+			$('.circle').removeClass('clip-auto');
+			$('.right').addClass('wth0');
+		}else if(percent>50){
+			$('.circle').addClass('clip-auto');
+			$('.right').removeClass('wth0');
+		}
+		$('.left').css("-webkit-transform","rotate("+(18/5)*percent+"deg)");
+		$('.num>span').text(percent);
+		percent++;
+	},200);
+
+</script>
+
+</head>
+
+<body>
+<div class="allforit">
+<div class="header">
+<div class="mr-header-left">BROADCAST</div>
+<div class="mr-header-right">Log Out</div>
+</div>
+
+<div class="middle">
+<h3>Audience Overview</h3>
+<div class="middle-baby">
+
+<div class="middle-top">
+<div class="middle-top-left">
+	<div class="wrap">
+	<div class="circle">
+		<div class="percent left"></div>
+		<div class="percent right wth0"></div>
+	</div>
+	<div class="num"><span>2,124</span></div>
+	</div>
+    
+    <div class="wrap">
+	<div class="circle">
+		<div class="percent left"></div>
+		<div class="percent right wth0"></div>
+	</div>
+	<div class="num"><span>2,124</span></div>
+	</div>
+    
+    <div class="wrap">
+	<div class="circle">
+		<div class="percent left"></div>
+		<div class="percent right wth0"></div>
+	</div>
+	<div class="num"><span>2,124</span></div>
+	</div>
+    </div>
+<div class="middle-top-right"></div>
+</div>
+
+
+<div class="middle-center-left">
+<div class="middle-center-baby">Pageviews by users(past 5 days)<font class="left-time1">23:01:04</font><font class="left-time2">$15,596</font><font class="left-time3">$3,596</font>
+<div class="shanxing shanxing1">
+    <div class="sx1"></div>
+     <div class="sx2"></div>
+</div>
+<font class="mathfont">69.2%</font>
+</div>
+</div>
+
+<div class="middle-center-right"><div class="middle-center-baby">Market Value
+<font class="right-time1">$20,467</font>
+<font class="right-min1">March</font>
+<font class="right-min2">April</font>
+<font class="right-min3">May</font>
+<font class="right-min4">June</font>
+<font class="right-min5">July</font>
+
+<div class="view-baby1"></div>
+<div class="view-baby2"></div>
+<div class="view-baby3"></div>
+<div class="view-baby4"></div>
+<div class="view-baby5"></div>
+<div class="view-baby6"></div>
+<div class="view-baby7"></div>
+<div class="view-baby8"></div>
+<div class="view-baby9"></div>
+<div class="view-baby10"></div>
+</div>
+
+<a class="view-option1" href="#">DAILY</a>
+<a class="view-option2" href="#">MONTHLY</a>
+<a class="view-option3" href="#">YEARLY</a>
+
+
+
+</div>
+<div class="middle-bottom-left">
+<div class="middle-bottom-baby">Analytics</div>
+<font class="font-bottem-title">25,134</font>
+<div class="middle-bottom-circle"></div>
+<font class="font-auto">FOLLOWERS</font>
+</div>
+
+<div class="middle-bottom-right">
+<div class="middle-bottom-baby">Support Requests
+<a href="#" class="view-all">View All</a>
+<div class="bbb"></div>
+<div class="mr-title1">TIME</div>
+<div class="mr-title2">USER NAME</div>
+<div class="mr-title3">STATUS</div>
+<div class="mr-min-title1">9:45pm</div>
+<div class="mr-min-title1">9:45pm</div>
+<div class="mr-min-title1">9:45pm</div>
+<div class="mr-min-title1">9:45pm</div>
+<div class="mr-min-title1">9:45pm</div>
+<div class="mr-min-title2">info@design.com</div>
+<div class="mr-min-title2">info@design.com</div>
+<div class="mr-min-title2">info@design.com</div>
+<div class="mr-min-title2">info@design.com</div>
+<div class="mr-min-title2">info@design.com</div>
+
+<a href="#" class="mr-status1">Solved</a>
+<a href="#" class="mr-status2">Solved</a>
+<a href="#" class="mr-status3">Solved</a>
+<a href="#" class="mr-status4">Open</a>
+<a href="#" class="mr-status5">Open</a>
+
+</div>
+</div>
+<div class="footer">
+<div class="footer-model">
+</div>
+</div>
+</div>
+</body>
+</html>
